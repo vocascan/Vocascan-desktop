@@ -129,6 +129,7 @@
         "allVocabs": {
             "title": "All vocabulary",
             "vocabel": "Vocabel",
+            "description": "Description",
             "translations": "Translations",
             "deleteTitle": "Delete Vocabulary",
             "deleteDescription": "Are you sure you want to delete the vocabulary {{name}}?",
