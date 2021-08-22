@@ -43,7 +43,12 @@
         "finish": "Finish",
         "back": "Back",
         "comingSoon": "Coming soon...",
-        "skip": "Skip"
+        "skip": "Skip",
+        "import": "Import",
+        "vocabsPerDay": "Vocabs per day",
+        "rightWords": "Right words",
+        "fileImportError": "Error importing your file"
+
     },
     "components": {
         "groupForm": {
@@ -128,7 +133,7 @@
         },
         "allVocabs": {
             "title": "All vocabulary",
-            "vocabel": "Vocabel",
+            "vocabulary": "vocabulary",
             "description": "Description",
             "translations": "Translations",
             "deleteTitle": "Delete Vocabulary",
