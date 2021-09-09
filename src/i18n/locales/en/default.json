@@ -69,6 +69,11 @@
             "modifyPackageSuccessMessage": "Package saved",
             "modifyPackageFailedMessage": "Could not save package"
         },
+        "packagePreviewForm": {
+            "vocabsActive": "vocabs are put in daily query",
+            "activateVocabs": "activate vocabs",
+            "importQueryStatus": "import vocabs with actual query status"
+        },
         "vocabForm": {
             "noPackagesMessage": "No packages found",
             "noGroupsMessage": "No groups found",
@@ -115,7 +120,9 @@
             "exportSuccessMessage": "Exported package successfully",
             "exportFailMessage": "Error exporting package",
             "editPackage": "Edit Package",
-            "addPackage": "Add Package"
+            "addPackage": "Add Package",
+            "exportQueryStatus": "Export actual query status",
+            "exportDescription": "Do you want to export this language package?"
         },
         "allGroups": {
             "title": "All groups",
