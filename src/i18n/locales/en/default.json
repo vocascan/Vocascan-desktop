@@ -135,6 +135,8 @@
             "deleteFailMessage": "Group could not be deleted",
             "exportSuccessMessage": "Exported group successfully",
             "exportFailMessage": "Error exporting group",
+            "importSuccessMessage": "Imported group successfully",
+            "importFailMessage": "Error importing group",
             "editGroup": "Edit Group",
             "addGroup": "Add Group"
         },
