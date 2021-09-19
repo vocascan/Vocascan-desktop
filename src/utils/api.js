@@ -75,6 +75,25 @@ export const checkQuery = (vocabularyId, answer = false, progress = false) =>
 // Stats
 export const getStats = () => api.get("/user/stats");
 
+// Export
+export const exportGroup = (groupId) => api.get(`/group/${groupId}/export`);
+export const exportPackage = (languagePackageId, queryStatus) =>
+  api.get(
+    `/languagePackage/${languagePackageId}/export/?queryStatus=${queryStatus}`
+  );
+
+// Import
+export const importLanguagePackage = (data, active, activate, queryStatus) =>
+  api.post(
+    `/languagePackage/import?active=${active}&activate=${activate}&queryStatus=${queryStatus}`,
+    data
+  );
+export const importGroup = (data, languagePackageId, active, activate) =>
+  api.post(
+    `/group/import?languagePackageId=${languagePackageId}&active=${active}&activate=${activate}`,
+    data
+  );
+
 // Languages
 export const getLanguages = ({
   code = true,
